@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart - CHA Hospitals</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            margin-bottom: 20px;
+        }
+
+        .content {
+            margin-bottom: 20px;
+        }
+
+        .cart-table {
+            margin-bottom: 20px;
+            width: 100%;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        .checkout {
+            text-align: center;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #0073e6;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #005bb5;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        
+        <!-- Header Section -->
+        <div class="header">
+            <h2>Your Appointments Cart</h2>
+        </div>
+
+        <!-- Content Section -->
+        <div class="content">
+            <p>Here you can view the services you've selected and confirm your appointments:</p>
+        </div>
+
+        <!-- Cart Table Section -->
+        <div class="cart-table">
+            <table>
+                <tr>
+                    <th>Service</th>
+                    <th>Doctor</th>
+                    <th>Date</th>
+                    <th>Price</th>
+                </tr>
+                <tr>
+                    <td>Cardiology Consultation</td>
+                    <td>Dr. Pranay.P</td>
+                    <td>2024-12-20</td>
+                    <td>$150</td>
+                </tr>
+                <tr>
+                    <td>Neurology Consultation</td>
+                    <td>Dr. Sridurga.M</td>
+                    <td>2024-12-22</td>
+                    <td>$200</td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- Checkout Section -->
+        <div class="checkout">
+            <button type="button">Proceed to Checkout</button>
+        </div>
+
+    </div>
+
+</body>
+</html>
